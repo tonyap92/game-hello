@@ -1,0 +1,328 @@
+@media (max-width: 1490px) {
+  .hello-app {
+    position: inherit;
+  }
+  .hello-app__title {
+    color: #fff;
+    font-size: 55px;
+  }
+  .hello-app__container {
+    display: grid;
+    grid-template-columns: 45% 1fr;
+    column-gap: 67px;
+  }
+}
+@media (max-width: 1169.98px) {
+  .hello-app__container {
+    column-gap: 33px;
+  }
+}
+@media (max-width: 991.98px) {
+  .hello-start__products,
+  .hello-result__products {
+    display: none;
+  }
+  .hello-start__inner {
+    width: 90%;
+  }
+  .hello-game__choose {
+    gap: 50px;
+    padding-bottom: 50px;
+  }
+  .hello-game__cards {
+    width: 290px;
+    height: 400px;
+  }
+  .hello-game__cards::before,
+  .hello-game__cards::after {
+    display: none;
+  }
+  .hello-game__card {
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .hello-app__container {
+    grid-template-columns: 100%;
+  }
+  .hello-app__content {
+    max-width: 100%;
+  }
+  .hello-app__phones {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .hello-start__title {
+    font-size: 58px;
+  }
+  .hello-start__text {
+    font-size: 14px;
+  }
+  .hello-game__variant {
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .hello-game__cards {
+    width: 100%;
+    height: 322px;
+  }
+}
+@media (max-width: 575.98px) {
+  .hello-bg {
+    height: 916px;
+  }
+  .hello-header__container {
+    width: 90%;
+    padding: 36px 0 36px;
+  }
+  .hello-header__nav {
+    grid-template-columns: 100%;
+  }
+  .hello-header__menu {
+    grid-gap: 0;
+  }
+  .hello-header__logos {
+    width: 100%;
+    text-align: center;
+  }
+  .hello-header__social {
+    display: none;
+  }
+  .hello-menu {
+    padding: 0 20px;
+    height: -webkit-fill-available;
+  }
+  .hello-menu__btn {
+    font-size: 20px;
+  }
+  .hello-menu__nav {
+    transform: translateY(42px);
+  }
+  .hello-menu__social {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  .hello-menu__link {
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+  }
+  .hello-start {
+    transform: translateY(69px);
+  }
+  .hello-start__container {
+    width: 90%;
+  }
+  .hello-start__title {
+    margin-bottom: 36px;
+    font-size: 36px;
+  }
+  .hello-start__text {
+    max-width: 325px;
+    margin: 0 auto 38px;
+    font-size: 12px;
+  }
+  .hello-start__btns,
+  .hello-result__btns {
+    gap: 10px;
+  }
+  .hello-start__btn,
+  .hello-result__btn {
+    height: 40px;
+  }
+  .hello-start__btn {
+    font-size: 12px;
+  }
+  .hello-game {
+    transform: translateY(12px);
+  }
+  .hello-game__timer-time,
+  .hello-game__csores-points {
+    font-size: 14px;
+  }
+  .hello-game__subtitle {
+    max-width: 176px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  .hello-game__info {
+    grid-template-columns: 100%;
+    row-gap: 59px;
+  }
+  .hello-game__choose {
+    padding: 37px 0 172px;
+    display: grid;
+    grid-template-columns: 16% 61% 16%;
+    gap: 10px;
+    justify-content: center;
+  }
+  .hello-game__cards {
+    height: 313px;
+  }
+  .hello-game__footer {
+    justify-content: center;
+  }
+  .hello-game__step {
+    position: absolute;
+    top: 0;
+    right: 5%;
+  }
+  .hello-game__current {
+    font-size: 32px;
+  }
+  .hello-game__total {
+    font-size: 16px;
+  }
+  .hello-game__link,
+  .hello-result__link {
+    height: 40px;
+    font-size: 10px;
+  }
+  .hello-result__container {
+    margin: 0 auto 45px;
+  }
+  .hello-result__title,
+  .hello-registration__title,
+  .hello-app__title {
+    font-size: 36px;
+  }
+  .hello-result__title,
+  .hello-find-out-result__title {
+    margin-bottom: 26px;
+  }
+  .hello-result__text,
+  .hello-app__text {
+    font-size: 14px;
+  }
+  .hello-result__number {
+    margin-bottom: 14px;
+    font-size: 32px;
+  }
+  .hello-result__btns {
+    grid-template-columns: 100%;
+  }
+  .hello-result__btns {
+    margin-bottom: 31px;
+  }
+  .hello-result__btn.btn--play,
+  .hello-result__btn.btn--registrate {
+    max-width: 330px;
+    width: 100%;
+  }
+  .hello-result__btn.btn--receive {
+    max-width: 330px;
+    width: 100%;
+    grid-column: 1/1;
+  }
+  .hello-game__timer-text,
+  .hello-game__csores-text,
+  .hello-result__congrats,
+  .hello-result__btn,
+  .hello-result__share-text,
+  .hello-registration__label,
+  .hello-find-out-result__label {
+    font-size: 12px;
+  }
+  .hello-result__share-text {
+    margin-bottom: 13px;
+  }
+  .hello-result__footer {
+    justify-content: center;
+  }
+  .hello-registration__btn,
+  .hello-standings__btn,
+  .hello-find-out-result__btn {
+    max-width: 330px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .hello-find-out-result__container {
+    max-width: 345px;
+    margin: 0 auto;
+  }
+  .hello-registration__form,
+  .hello-find-out-result__form {
+    max-width: 330px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .hello-registration__input,
+  .hello-find-out-result__input,
+  .hello-standings__row {
+    font-size: 12px;
+  }
+  .hello-registration__title {
+    margin-bottom: 33px;
+  }
+  .hello-registration__fields {
+    margin-bottom: 16px;
+  }
+  .hello-registration__field {
+    margin-bottom: 13px;
+  }
+  .hello-registration__text span {
+    max-width: 256px;
+  }
+  .hello-find-out-result__field {
+    margin-bottom: 30px;
+  }
+  .hello-standings__title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    letter-spacing: -0.2px;
+  }
+  .hello-standings__table {
+    max-width: 330px;
+    margin: 0 auto 35px;
+  }
+  .hello-standings__row {
+    grid-template-columns: 16% 37% 49%;
+  }
+  .hello-find-out-result__title {
+    font-size: 32px;
+  }
+  .hello-app__content {
+    max-width: 330px;
+  }
+  .hello-app__text,
+  .img--qr {
+    display: none;
+  }
+  .hello-qr__links,
+  .hello-app__img {
+    width: 100%;
+  }
+}
+@media (max-width: 409.98px) {
+  .hello-menu__nav {
+    gap: 25px;
+  }
+  .hello-menu__btn {
+    font-size: 23px;
+  }
+  .hello-container {
+    max-width: 100%;
+  }
+  .hello-game__cards {
+    height: 250px;
+  }
+  .hello-game__variant {
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .hello-result__ticket {
+    padding: 12px 15px 0px 69px;
+    width: 271px;
+  }
+  .hello-result__promotext {
+    font-size: 10px;
+    line-height: 11px;
+  }
+}
