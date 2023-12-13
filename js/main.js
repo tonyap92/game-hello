@@ -94,7 +94,7 @@ class Game {
     ) {
       this.buttonPlayElement.addEventListener("click", () => {
         this.startGame();
-        // this.startTimer();
+        this.startTimer();
       });
 
       this.buttonYesElement.addEventListener("click", () => {
