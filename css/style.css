@@ -338,10 +338,6 @@ button {
   cursor: pointer;
   text-transform: uppercase;
 }
-.hello-game__variant:hover {
-  color: #fff;
-  background-color: #000;
-}
 .hello-game__cards {
   position: relative;
   width: 350px;
